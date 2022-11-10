@@ -1,6 +1,5 @@
 package com.example.springboothelloworld.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,9 +12,9 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public Map<String, Object> hello() {
-        result.put("name", "Stephen");
-        result.put("age", "21");
-        result.put("city", "San Jose");
+        result.put("name", "Patrick");
+        result.put("age", "20");
+        result.put("city", "Huye");
         return result;
     }
 }
